@@ -1,16 +1,16 @@
 ---
-layout: page
+layout: post
 title: Team
 permalink: /team/
 ---
 
-Principal Investigator 
+Principal Investigator
 
 ![image](/assets/images/DCU Garrick Allen_M07.jpg)
 
 Garrick V. Allen (PhD St Andrews, 2015) is Senior Lecturer in New Testament Studies at the University of Glasgow. He is the author of Manuscripts of the Book of Revelation: New Philology, Paratexts, Reception (Oxford University Press, 2020) and The Book of Revelation and Early Jewish Textual Culture (Cambridge University Press, 2017), along with multiple articles, edited books, and translations. He is also the recipient of the Manfred Lautenschlaeger Award for Theological Promise (2019) and the Paul J. Achtemeier Award for New Testament Scholarship (2018). In addition to the TiNT project, he is the Principal Investigator on the Paratextual Understanding project, funded by the Templeton Religion Trust.
 
-Garrick’s work on the TiNT project revolves around the features of the Euthalian apparatus to Acts, the Pauline Epistles, and the Catholic epistles, focusing especially on the chapter lists and quotation lists in different manuscripts. 
+Garrick’s work on the TiNT project revolves around the features of the Euthalian apparatus to Acts, the Pauline Epistles, and the Catholic epistles, focusing especially on the chapter lists and quotation lists in different manuscripts.
 
 Postdoctoral Researchers
 
