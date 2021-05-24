@@ -1,27 +1,46 @@
 <footer class="site-footer h-card">
-        <data class="u-url" href="{{ "/" | relative_url }}"></data>
-      
-        <div class="wrapper">
-          <h2 class="footer-heading">{{ site.title | escape }}</h2>
-      
-          <div class="footer-col-wrapper">
-            <div class="footer-col">
-            {%- if site.author %}
-              <ul class="contact-list">
-                {% if site.author.name -%}
-                  <li class="p-name">{{ site.author.name | escape }}</li>
-                {% endif -%}
-                {% if site.author.email -%}
-                  <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-                {%- endif %}
-              </ul>
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+        {%- if site.author %}
+          <ul class="contact-list">
+            {% if site.author.name -%}
+              <li class="p-name">{{ site.author.name | escape }}</li>
+            {% endif -%}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
             {%- endif %}
-            </div>
-            <div class="footer-col">
-              <p>{{ site.post | escape }}</p>
-            </div>
-          </div>
-      
+          </ul>
+        {%- endif %}
         </div>
-      
-      </footer>
+        <div class="footer-col">
+          <p>{{ site.post | escape }}</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <img src="/assets/images/footerlogos/INTF_Logo_rgb.png" width="100" alt="INTF_Logo_rgb" />
+            </div>
+            <div class="column">
+              <img src="/assets/images/footerlogos/IRC LOGO_RGB.jpg" width="100" alt="IRC_logo_rgb" />
+            </div>
+            <div class="column">
+              <img src="/assets/images/footerlogos/dcu.png" width="100" alt="dcu" />
+            </div>
+            <div class="column">
+              <img src="/assets/images/footerlogos/LOGO_ERC.jpg" width="100" alt="ERC_logo_rgb" />
+            </div>
+            <!-- <div class="column">
+              <img src="/assets/images/footerlogos/UofG.eps" width="100px" alt="image" /></p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
