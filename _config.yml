@@ -22,12 +22,12 @@
 title: Titles of the New Testament
 author:
   name: Garrick Allen
-  email: <first name> . <surname> @glasgow.ac.uk
+  email: '&lt;first name&gt; . &lt;surname&gt; @glasgow.ac.uk'
 post: # this means to ignore newlines until "baseurl:"
-            University of Glasgow
-            School of Critical Studies
-            4 The Square
-            G12 8QQ
+            University of Glasgow<br/>
+            School of Critical Studies<br/>
+            4 The Square<br/>
+            G12 8QQ<br/>
             UK
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
