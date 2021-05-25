@@ -1,8 +1,8 @@
 <div class="publication {% if post.star %}star{% endif %}">
-  <div class="title">{{ post.details.title }}</div>
-  <div class="authors">{{ post.details.authors }}</div>
+  <div class="title">{{ post.title }}</div>
+  <div class="authors">{{ post.authors }}</div>
   <div class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></div>
-	{% for link in post.details.links  %}
+	{% for link in post.links  %}
   <div class="link" href="{{ url }}">{{ link.text }}</div>
 	{% endfor %}
 </div>
