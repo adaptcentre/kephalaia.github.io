@@ -3,27 +3,26 @@
 
   <div class="wrapper">
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="container">
-      <div class="row">
+    
+      <div class="footer-row" >
         <div class="footer-col-wrapper">
-          <div class="footer-col">
+          <div class="footer-contact">
             {%- if site.author %}
-              <ul class="contact-list">
+              <ul class="contact-list" style="margin:0">
                 {% if site.author.name -%}
                   <li class="p-name">{{ site.author.name | escape }}</li>
                 {% endif -%}
                 {% if site.author.email -%}
                 <li>{{ site.author.email }}</li>
                 {%- endif %}
-                <p>{{ site.post }}</p>
+                <p style="margin:0"> {{ site.post }} </p>
               </ul>
             {%- endif %}
           </div>
-        </div>
+        </div>  
       </div>
 
-      <div class="row" style='border:dashed 1px #ffffff;'>
+      <div class="footer-row-logos" >
         <div class="col-xs-7 footer-logos">
           <img class="footer-logo-images" src="/assets/images/footerlogos/UofG keyline boxed marque for digital.png" alt="UofG_logo" />
         </div>
@@ -36,15 +35,14 @@
         <div class="col-xs-7 footer-logos">
           <img class="footer-logo-images" src="/assets/images/footerlogos/LOGO_ERC_cropped.jpg" alt="ERC_logo_rgb" />
         </div>
-        <div class="col-xs-7 footer-logos">
+        <div class="col-xs-7 footer-logos" style="max-width:8%" >
           <img class="footer-logo-images" src="/assets/images/footerlogos/ADAPT_Logo_CMYK.png" alt="adapt_logo_cmyk" />
         </div>
-        <div class="col-xs-7 footer-logos">
+        <div class="col-xs-7 footer-logos" style="max-width:8%" >
           <img class="footer-logo-images" src="/assets/images/footerlogos/dcu.png" alt="dcu"/>
         </div>
       </div>
 
-    </div>
   </div>
 
 </footer>
