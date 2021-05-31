@@ -61,10 +61,6 @@ collections:
       - { label: 'First Day', name: 'date', widget: 'datetime' }
       - { label: 'Dates', name: 'dates', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
-      - label: 'Speakers'
-        name: 'speakers'
-        widget: 'list'
-        field: { label: 'Speaker', name: 'speaker', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'Team'
