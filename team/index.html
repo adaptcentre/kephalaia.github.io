@@ -1,0 +1,31 @@
+---
+title: Team
+layout: page
+---
+
+<section class="list">
+	{% if site.categories.team.size == 0 %}
+		<p class="text-center">No Team Members Yet!</p>
+	{% else %}
+
+  {% assign principalInvestigator = site.categories.team | where: "group","Principal Investigator" %}
+  {% assign postdoctorals = site.categories.team | where: "group","Postdoctorals" %}
+  {% assign phds = site.categories.team | where: "group","PhD Students" %}
+
+  <h2>Principal Investigator</h2>
+	{% for post in principalInvestigator  %}
+			{% include teamMember.html %}
+	{% endfor %}
+
+  <h2>Postdoctoral Researchers</h2>
+  {% for post in postdoctorals  %}
+      {% include teamMember.html %}
+  {% endfor %}
+
+  <h2>PhD Students</h2>
+  {% for post in phds  %}
+      {% include teamMember.html %}
+  {% endfor %}
+
+	{% endif %}
+</section>

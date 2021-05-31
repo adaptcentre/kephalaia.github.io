@@ -7,6 +7,26 @@ backend:
   base_url: https://auth.mtthw.xyz
 media_folder: 'assets/slides'
 collections:
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Home'
+        name: 'home'
+        file: 'index.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'About Page'
+        name: 'about'
+        file: 'about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'Publications'
     label: 'Publications'
     folder: 'publications/_posts'
@@ -26,4 +46,40 @@ collections:
         fields:
           - { label: 'Text', name: 'text', widget: 'string' }
           - { label: 'url', name: 'url', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'Events'
+    label: 'Events'
+    folder: 'events/_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Dates', name: 'dates', widget: 'string' }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        field: { label: 'Tag', name: 'tag', widget: 'string' }
+      - label: 'Speakers'
+        name: 'speakers'
+        widget: 'list'
+        field: { label: 'Speaker', name: 'speaker', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'Team'
+    label: 'Team'
+    folder: 'team/_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Photo', name: 'photo', widget: 'image', 'allow_multiple': false }
+      - { label: 'Group', name: 'group', widget: 'select', options: ['PhD Students','Postdoctorals','Principal Investigator']}
       - { label: 'Body', name: 'body', widget: 'markdown' }

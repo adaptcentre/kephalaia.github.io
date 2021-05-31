@@ -1,0 +1,39 @@
+---
+title: Events
+layout: page
+---
+
+<section>
+    {% assign tags_list = site.tags %}
+
+    {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %}
+            <a class="item styled-link" href="#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    {% else %}
+        {% for tag in tags_list %}
+            <a class="item styled-link" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+        {% endfor %}
+    {% endif %}
+
+    {% assign tags_list = nil %}
+</section>
+
+<section class="tag-list">
+    {% for tag in site.tags reversed  %}
+    <div class="breaker"></div>
+    <h2 class="title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+
+    {% assign pages_list = tag[1] %}
+    {% for post in pages_list %}
+        {% if post.title != null %}
+            {% if group == null or group == post.group %}
+              {% include event.html %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+
+    {% endfor %}
+</section>

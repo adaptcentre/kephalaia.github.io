@@ -1,0 +1,15 @@
+<div class="event {% if post.star %}star{% endif %}">
+  <div class="title">{{ post.title }}</div>
+  <div class="dates">{{ post.dates }}</div>
+
+  <div class="speakers">
+    <div class="premable">Invited Speakers:</div>
+    <ul>
+    	{% for speaker in post.speakers  %}
+      <li class="speaker">{{ speaker }}</li>
+    	{% endfor %}
+    </ul>
+  </div>
+
+  <div class="content">{{ post.content }}</div>
+</div>
