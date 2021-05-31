@@ -3,11 +3,10 @@
 
   <div class="wrapper">
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="container">
-      <div class="row">
-        <div class="footer-col-wrapper">
-          <div class="footer-col">
+    
+      <div class="row" style='border:dashed 1px #ffffff; '>
+        <div class="footer-col-wrapper" style='border:dashed 1px #ffffff;'>
+          <div class="footer-col" style='border:dashed 1px #ffffff;'>
             {%- if site.author %}
               <ul class="contact-list">
                 {% if site.author.name -%}
@@ -16,7 +15,7 @@
                 {% if site.author.email -%}
                 <li>{{ site.author.email }}</li>
                 {%- endif %}
-                <p>{{ site.post }}</p>
+                <p style='border:dashed 1px #ffffff;'> {{ site.post }} </p>
               </ul>
             {%- endif %}
           </div>
@@ -37,14 +36,13 @@
           <img class="footer-logo-images" src="/assets/images/footerlogos/LOGO_ERC_cropped.jpg" alt="ERC_logo_rgb" />
         </div>
         <div class="col-xs-7 footer-logos">
-          <img class="footer-logo-images" src="/assets/images/footerlogos/ADAPT_Logo_CMYK.png" alt="adapt_logo_cmyk" />
+          <img class="footer-logo-images" style="max-width:70%" src="/assets/images/footerlogos/ADAPT_Logo_CMYK.png" alt="adapt_logo_cmyk" />
         </div>
         <div class="col-xs-7 footer-logos">
-          <img class="footer-logo-images" src="/assets/images/footerlogos/dcu.png" alt="dcu"/>
+          <img class="footer-logo-images" style="max-width:50%" src="/assets/images/footerlogos/dcu.png" alt="dcu"/>
         </div>
       </div>
 
-    </div>    
   </div>
 
 </footer>

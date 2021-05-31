@@ -4,10 +4,13 @@ title: TiNT Publications
 permalink: /tint-publications/
 ---
 
-Garrick V. Allen and Anthony P. Royle. “Paratexts seeking Understanding: Manuscripts and Aesthetic Cognitivism.” Religions 11 (2020), available on Enlighten.
+### 2020
 
-Garrick V. Allen and Kelsie G. Rodenbiker. “Titles of the New Testament (TiNT): A New Approach to Manuscripts and the History of Interpretation.” Early Christianity 11 (2020): 265–280, available on Enlighten.
+- Garrick V. Allen and Anthony P. Royle. “Paratexts seeking Understanding: Manuscripts and Aesthetic Cognitivism.” Religions 11 (2020), available on [Enlighten](http://eprints.gla.ac.uk/226677/).
 
+- Garrick V. Allen and Kelsie G. Rodenbiker. “Titles of the New Testament (TiNT): A New Approach to Manuscripts and the History of Interpretation.” Early Christianity 11 (2020): 265–280, available on [Enlighten](https://eprints.gla.ac.uk/cgi/users/home?screen=EPrint::View&eprintid=235952#t).
+
+<!-- Added to own section
 Events
 
 8–10 October 2021, The Chester Beatty, Dublin, Fresh Perspectives on the Chester Beatty Papyri, Papyrology, and Communication in the Ancient World
@@ -49,4 +52,5 @@ Invited speakers:
 •	René Falkenberg (Aarhus University)
 •	Blossom Stefaniw (Martin Luther Universität Halle-Wittenberg)
 
-Contributions will be published in a special fascicle of Religions. <!--insert like for special fas....-->
+Contributions will be published in a [special fascicle of Religions](https://eprints.gla.ac.uk/cgi/users/home?screen=EPrint::View&eprintid=235952#t).-->
+ <!--insert like for special fas....-->

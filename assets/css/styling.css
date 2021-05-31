@@ -11,12 +11,12 @@ footer.row{
 */
 
 /** Site footer */
-.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+.site-footer { border-top: 1px solid #e8e8e8; padding: 15px 0; }
 
-.footer-heading { font-size: 18px; margin-bottom: 15px; }
+.footer-heading { font-size: 18px; margin-bottom: 10px; }
 
-.footer-contact { width:calc(100% - (30px / 2)); font-size: 13px; float: left; margin-bottom: 8px; padding-left: 10px}
+.footer-contact { width:calc(100% - (30px / 2)); font-size: 13px; float: left; margin-bottom: 0px; padding-left: 10px}
  
-.footer-logos { max-width: 90px; display: inline-block; vertical-align: bottom; padding: 10px 10px; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;}
+.footer-logos { max-width: 100px; display: inline-block; vertical-align: bottom; padding: 5px 5px; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;}
 
 .footer-logo-images {display: inline-block; max-width: 100%; margin-right:0px; padding:0px 0px; }
