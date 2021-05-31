@@ -5,7 +5,7 @@ backend:
   repo:  kephalaia/kephalaia.github.io
   branch: master # Branch to update (optional; defaults to master)
   base_url: https://auth.mtthw.xyz
-media_folder: 'assets/slides'
+media_folder: 'assets/images'
 collections:
   - name: 'pages'
     label: 'Pages'
