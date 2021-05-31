@@ -15,9 +15,7 @@ The project begins to examine the New Testament’s titles and related paratexts
 4. The design, codicology, and artistic features of manuscripts
 5. Scribal identities and the sociology of textual transmission
 6. Traditions of textual segmentation
-   ​
 
-
-   The data produced by the project will eventually be available on this website and be searchable by feature (under the Feature Search tab) or by manuscript (under the Manuscript Profile tab). The objective of this project is to rethink the critical value of manuscripts beyond and in conversation with the purely textual concerns of traditional textual criticism and to explore titles as expressive features.
+The data produced by the project will eventually be available on this website and be searchable by feature (under the Feature Search tab) or by manuscript (under the Manuscript Profile tab). The objective of this project is to rethink the critical value of manuscripts beyond and in conversation with the purely textual concerns of traditional textual criticism and to explore titles as expressive features.
    ​
-   We are pleased to be able to partner with the [School of Critical Studies, University of Glasgow](https://www.gla.ac.uk/schools/critical/) and the [ADAPT Centre](https://www.adaptcentre.ie/) in an effort to realize our ambition project. The Titles of the New Testament: A New Approach to Manuscripts and the History of Interpretation (TiNT) project is funded by the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 847428).
+We are pleased to be able to partner with the [School of Critical Studies, University of Glasgow](https://www.gla.ac.uk/schools/critical/) and the [ADAPT Centre](https://www.adaptcentre.ie/) in an effort to realize our ambition project. The Titles of the New Testament: A New Approach to Manuscripts and the History of Interpretation (TiNT) project is funded by the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 847428).
