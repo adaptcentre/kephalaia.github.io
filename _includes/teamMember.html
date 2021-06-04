@@ -1,5 +1,5 @@
 <div class="teamMember {% if post.star %}star{% endif %}">
-  <img class="photo" src="{{ post.photo }}"/>
-  <div class="name">{{ post.title }}</div>
+  <img class="photo" style="max-width: 200px;" src="{{ post.photo }}"/>
+  <div class="name"><p><h4>{{ post.title }}</h4></p></div>
   <div class="content">{{ post.content }}</div>
 </div>
