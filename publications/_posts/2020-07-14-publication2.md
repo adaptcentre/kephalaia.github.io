@@ -7,5 +7,5 @@ title: "Titles of the New Testament (TiNT): A New Approach to Manuscripts and th
 issue: Early Christianity 11.2 (2020)
 links:
 - text: available on Enlighten
-  url:
+  url: http://eprints.gla.ac.uk/235952/
 ---
