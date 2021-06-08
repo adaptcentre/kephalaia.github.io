@@ -5,4 +5,8 @@
 layout: page
 ---
 
+<<<<<<< HEAD
 \*\*Placeholder\*\*
+=======
+Placeholder
+>>>>>>> 69f89ce20b5c4a92bc9c739b841f7efcefe17ebd
