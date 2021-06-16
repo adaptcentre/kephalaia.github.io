@@ -1,5 +1,5 @@
 <div class="publication {% if post.star %}star{% endif %}">
-  <div class="title"><b>{{ post.title }}</b></div>
+  <div class="title tint_green_text"><b>{{ post.title }}</b></div>
   <div class="authors">{{ post.authors }}</div>
   <div class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></div>
 	{% for link in post.links  %}

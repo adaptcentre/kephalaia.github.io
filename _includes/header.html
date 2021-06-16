@@ -1,4 +1,4 @@
-<header class="site-header" role="banner">
+<header class="site-header" role="banner" style="border-top: 5px solid #15808e;">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -21,7 +21,7 @@
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
               {%- if path != "index.md" -%}
-                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                <a class="page-link" style="font-family: Candara; font-size: 22px; color: #15808e;" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}

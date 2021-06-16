@@ -20,7 +20,7 @@ layout: page
 	    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
 	    {% if forloop.first %}
-	    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+	    <p class="tint_green_heading_2" id="{{ this_year }}-ref">{{this_year}}</p>
 	    {% endif %}
 
 			{% include event.html %}
@@ -28,7 +28,7 @@ layout: page
 	    {% if forloop.last %}
 	    {% else %}
       {% if this_year != next_year %}
-      <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+      <p class="tint_green_heading_2"  id="{{ next_year }}-ref">{{next_year}}</p>
       {% endif %}
 	    {% endif %}
 	{% endfor %}

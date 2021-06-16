@@ -12,17 +12,17 @@ layout: page
   {% assign postdoctorals = site.categories.team | where: "group","Postdoctorals" %}
   {% assign phds = site.categories.team | where: "group","PhD Students" %}
 
-  <h2>Principal Investigator</h2>
+  <p class="tint_green_heading_2">Principal Investigator</p>
 	{% for post in principalInvestigator  %}
 			{% include teamMember.html %}
 	{% endfor %}
-
-  <h2>Postdoctoral Researchers</h2>
+  <br>
+  <p class="tint_green_heading_2">Postdoctoral Researchers</p>
   {% for post in postdoctorals  %}
       {% include teamMember.html %}
   {% endfor %}
-
-  <h2>PhD Students</h2>
+  <br>
+  <p class="tint_green_heading_2">PhD Students</p>
   {% for post in phds  %}
       {% include teamMember.html %}
   {% endfor %}
