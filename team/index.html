@@ -9,7 +9,7 @@ layout: page
 	{% else %}
 
   {% assign principalInvestigator = site.categories.team | where: "group","Principal Investigator" %}
-  {% assign postdoctorals = site.categories.team | where: "group","Postdoctorals" %}
+  {% assign postdoctoralResearchers = site.categories.team | where: "group","Postdoctoral Researchers" %}
   {% assign phds = site.categories.team | where: "group","PhD Students" %}
 
   <p class="tint_green_heading_2">Principal Investigator</p>
@@ -18,7 +18,7 @@ layout: page
 	{% endfor %}
   <br>
   <p class="tint_green_heading_2">Postdoctoral Researchers</p>
-  {% for post in postdoctorals  %}
+  {% for post in postdoctoralResearchers  %}
       {% include teamMember.html %}
   {% endfor %}
   <br>
