@@ -18,4 +18,4 @@ The project begins to examine the New Testament’s titles and related paratexts
 
 The data produced by the project will eventually be available on this website and be searchable by feature (under the Feature Search tab) or by manuscript (under the Manuscript Profile tab). The objective of this project is to rethink the critical value of manuscripts beyond and in conversation with the purely textual concerns of traditional textual criticism and to explore titles as expressive features.
    ​
-We are pleased to be able to partner with the [School of Critical Studies, University of Glasgow](https://www.gla.ac.uk/schools/critical/), the [ADAPT Centre](https://www.adaptcentre.ie/), and the [Institut für Neutestamentliche Textforschung](http://egora.uni-muenster.de/intf/index_en.shtml) in our ambitious project.
+We are pleased to be able to partner with the [School of Critical Studies, University of Glasgow](https://www.gla.ac.uk/schools/critical/), the [ADAPT Centre](https://www.adaptcentre.ie/), and the [Institut für Neutestamentliche Textforschung](http://egora.uni-muenster.de/intf/index_en.shtml) on our ambitious project.
