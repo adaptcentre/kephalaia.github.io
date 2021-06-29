@@ -1,5 +1,4 @@
 ---
-title: About
 layout: page
 ---
 ![](/assets/images/TiNT-Final-03.jpg)
