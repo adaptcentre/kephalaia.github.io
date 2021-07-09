@@ -6,8 +6,6 @@ authors: Garrick V. Allen
 issue: Journal of Biblical Literature 140 (2021)
 date: 2021-06-29T15:58:57.746Z
 links:
-  - url: https://www.jstor.org/stable/10.15699/jbl.1402.2021.10
-    text: Open Access on JSTOR
   - url: http://eprints.gla.ac.uk/237440/
     text: available on Enlighten
 ---
