@@ -8,32 +8,37 @@
 /** Site footer */
 .site-footer { border-top: 1px solid #e8e8e8; padding: 15px 0; }
 
-.footer-row { border:dashed 1px #ffffff;
+.footer-info { display: flex;}
+.footer-row {
               margin-right: 0; }
 
 .footer-heading { font-size: 18px; margin-bottom: 10px; }
 
-.footer-contact { border:dashed 1px #ffffff;
+.footer-contact {
 	              width:calc(100% - (30px / 2));
 				  font-size: 13px;
-	              float: left;
-				  margin: 15px;
-				  margin-bottom: 0; margin-top: 0;
 				  padding: 0;}
 
-.footer-row-logos { border:dashed 1px #ffffff;
+.footer-logos {
 	                display: flex;
 	                flex-direction: row;
 	                flex-wrap: wrap;
-	                justify-content: space-between;
-				    align-self: flex-end}
+	                justify-content: space-evenly;
+                  align-items: center;
+              }
 
-.footer-logos { border:dashed 1px #ffffff;
-	            max-width: 120px;
-	            padding: 0px;
-				align-self: flex-end;}
+.footer-logo {
 
-.footer-logo-images {border:dashed 1px #ffffff;
+  max-width: 120px;
+  max-height: 40px;
+
+	            padding: 10px;
+				      align-self: flex-end;
+              display: flex;
+              }
+
+.footer-logo-images {
+  object-fit: contain;
 	                 max-width: 100%;  }
 
 header .wrapper {display: flex;
