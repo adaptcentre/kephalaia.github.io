@@ -14,8 +14,8 @@
 .footer-heading { font-size: 18px; margin-bottom: 10px; }
 
 .footer-contact { border:dashed 1px #ffffff;
-	              width:calc(100% - (30px / 2)); 
-				  font-size: 13px; 
+	              width:calc(100% - (30px / 2));
+				  font-size: 13px;
 	              float: left;
 				  margin: 15px;
 				  margin-bottom: 0; margin-top: 0;
@@ -23,15 +23,21 @@
 
 .footer-row-logos { border:dashed 1px #ffffff;
 	                display: flex;
-	                flex-direction: row; 
-	                flex-wrap: wrap; 
+	                flex-direction: row;
+	                flex-wrap: wrap;
 	                justify-content: space-between;
 				    align-self: flex-end}
 
-.footer-logos { border:dashed 1px #ffffff; 
-	            max-width: 120px; 
-	            padding: 0px; 
+.footer-logos { border:dashed 1px #ffffff;
+	            max-width: 120px;
+	            padding: 0px;
 				align-self: flex-end;}
 
 .footer-logo-images {border:dashed 1px #ffffff;
 	                 max-width: 100%;  }
+
+header .wrapper {display: flex;
+          justify-content: space-between;
+          align-items: center;}
+
+header .wrapper::after {content: unset}
