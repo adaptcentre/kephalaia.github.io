@@ -6,33 +6,53 @@ layout: page
 <section class="list">
 	{% if site.categories.publications.size == 0 %}
 		<p class="text-center tint_green_heading_3">No Publications Yet!</p>
-	{% elsif site.paginate %}
-		{% for post in paginator.categories.publications %}
-			{% if post.category == 'blog' %}
-				{% include publication.html %}
-			{% endif %}
-		{% endfor %}
-
-		{% include pagination.html%}
 	{% else %}
-	{% for post in site.categories.publications  %}
-	    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-	    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+  {% assign articles = site.categories.publications | where: "type","Article" %}
+  {% assign monographs = site.categories.publications | where: "type","Monograph" %}
+  {% assign editedVolumes = site.categories.publications | where: "type","Edited Volume" %}
+  {% assign conferencePresentation = site.categories.publications | where: "type","Conference Presentation" %}
+  {% assign other  = site.categories.publications | where_exp: "item","item.type != 'Article' or item.type != 'Monograph' or item.type != 'Edited Volume' or item.type != 'Conference Presentation'" %}
 
-	    {% if forloop.first %}
-	    <p class="tint_green_heading_2" id="{{ this_year }}-ref">{{this_year}}</p>
-	    {% endif %}
-
+  {% if articles.size > 0 %}
+  <p class="tint_green_heading_2">Articles</p>
+	{% for post in articles  %}
 			{% include publication.html %}
-
-	    {% if forloop.last %}
-	    {% else %}
-      {% if this_year != next_year %}
-      <p  class="tint_green_heading_2" id="{{ next_year }}-ref">{{next_year}}</p>
-      {% endif %}
-	    {% endif %}
 	{% endfor %}
+  <br>
+  {% endif %}
 
+  {% if monographs.size > 0 %}
+  <p class="tint_green_heading_2">Monographs</p>
+	{% for post in monographs  %}
+			{% include publication.html %}
+	{% endfor %}
+  <br>
+  {% endif %}
+
+  {% if editedVolumes.size > 0 %}
+  <p class="tint_green_heading_2">Edited Volumes</p>
+  {% for post in editedVolumes  %}
+      {% include publication.html %}
+  {% endfor %}
+  <br>
+  {% endif %}
+
+
+  {% if conferencePresentation.size > 0 %}
+  <p class="tint_green_heading_2">Conference Presentations</p>
+  {% for post in conferencePresentation  %}
+      {% include publication.html %}
+  {% endfor %}
+  <br>
+  {% endif %}
+
+  {% if other.size > 0 %}
+  <p class="tint_green_heading_2">Other</p>
+  {% for post in other  %}
+      {% include publication.html %}
+  {% endfor %}
+  <br>
+  {% endif %}
 
 	{% endif %}
 </section>

@@ -39,6 +39,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Authors', name: 'authors', widget: 'string' }
       - { label: 'Issue', name: 'issue', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ['Article', 'Monograph'. 'Edited Volume', 'Conference Presentation', Null]}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - label: 'Links'
         name: 'links'
