@@ -4,6 +4,7 @@ title: "The Possibilities of a Gospel Codex: GA 2064 (Dublin, CBL W 139),
   Digital Editing, and Reading in a Manuscript Culture"
 authors: Garrick V. Allen
 issue: Journal of Biblical Literature 140 (2021)
+type: Article
 date: 2021-06-29T15:58:57.746Z
 links:
   - url: http://eprints.gla.ac.uk/237440/
