@@ -11,7 +11,6 @@ layout: page
   {% assign monographs = site.categories.publications | where: "type","Monograph" %}
   {% assign editedVolumes = site.categories.publications | where: "type","Edited Volume" %}
   {% assign conferencePresentation = site.categories.publications | where: "type","Conference Presentation" %}
-  {% assign other  = site.categories.publications | where_exp: "item","item.type != 'Article' or item.type != 'Monograph' or item.type != 'Edited Volume' or item.type != 'Conference Presentation'" %}
 
   {% if articles.size > 0 %}
   <p class="tint_green_heading_2">Articles</p>
@@ -41,14 +40,6 @@ layout: page
   {% if conferencePresentation.size > 0 %}
   <p class="tint_green_heading_2">Conference Presentations</p>
   {% for post in conferencePresentation  %}
-      {% include publication.html %}
-  {% endfor %}
-  <br>
-  {% endif %}
-
-  {% if other.size > 0 %}
-  <p class="tint_green_heading_2">Other</p>
-  {% for post in other  %}
       {% include publication.html %}
   {% endfor %}
   <br>
