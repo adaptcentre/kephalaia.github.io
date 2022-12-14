@@ -11,21 +11,38 @@ layout: page
   {% assign principalInvestigator = site.categories.team | where: "group","Principal Investigator" %}
   {% assign postdoctoralResearchers = site.categories.team | where: "group","Postdoctoral Researchers" %}
   {% assign phds = site.categories.team | where: "group","PhD Students" %}
+  {% assign fellows = site.categories.team | where: "group","Project Fellows" %}
 
-  <p class="tint_green_heading_2">Principal Investigator</p>
-	{% for post in principalInvestigator  %}
-			{% include teamMember.html %}
-	{% endfor %}
-  <br>
-  <p class="tint_green_heading_2">Postdoctoral Researchers</p>
-  {% for post in postdoctoralResearchers  %}
-      {% include teamMember.html %}
-  {% endfor %}
-  <br>
-  <p class="tint_green_heading_2">PhD Students</p>
-  {% for post in phds  %}
-      {% include teamMember.html %}
-  {% endfor %}
+  {% if principalInvestigator.size > 0 %}
+    <p class="tint_green_heading_2">Principal Investigator</p>
+    {% for post in principalInvestigator  %}
+        {% include teamMember.html %}
+    {% endfor %}
+    <br>
+	{% endif %}
+
+  {% if postdoctoralResearchers.size > 0 %}
+    <p class="tint_green_heading_2">Postdoctoral Researchers</p>
+    {% for post in postdoctoralResearchers  %}
+        {% include teamMember.html %}
+    {% endfor %}
+    <br>
+	{% endif %}
+
+  {% if phds.size > 0 %}
+    <p class="tint_green_heading_2">PhD Students</p>
+    {% for post in phds  %}
+        {% include teamMember.html %}
+    {% endfor %}
+    <br>
+	{% endif %}
+
+  {% if fellows.size > 0 %}
+    <p class="tint_green_heading_2">Project Fellows</p>
+    {% for post in fellows  %}
+        {% include teamMember.html %}
+    {% endfor %}
+	{% endif %}
 
 	{% endif %}
 </section>
