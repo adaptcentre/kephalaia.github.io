@@ -1,0 +1,9 @@
+---
+layout: post
+title: Maxim Venetskov
+photo: /assets/images/photo_site.jpg
+group: Postdoctoral Researchers
+---
+Maxim Venetskov (Phd Paris-Sorbonne, 2018) is Research Assistant in the School of Critical Studies within the College of Arts at the University of Glasgow. He has recently published extensive papers on the manuscript tradition and textual criticism in the field of Byzantine asceticism and Eastern monasticism (project "Longing for perfection" at KU Leuven, 2018-2022). One of his latest publications concerns the titular apparatus of the Ladder of Divine Ascent by John Climacus as it is set out in the Greek manuscript tradition. The results of his research tend to establish that an oeuvre transmitted in Byzantine manuscripts evolves in three stages of composition: Textus (piece from the author), Liber (including peritextual and paratextual elements), Corpus (containing additions from the reception).
+
+For the TiNT project, Maxim is focusing on two main directions in the examination of manuscripts of the Gospels and apostolic writings: (1) retracing the development of paratexts in order to identify manuscript models through textual criticism an d(2) highlighting specificities of different copyists, various layouts in order to determine geographical and cultural milieux through codicological and palaeographical analyses. Another point of Maxim's study is to inventory liturgical marginalia aiming to define the practical use of the New Testament books in the Byzantine Church. He also compares the paratextual system in Greek manuscripts with that presented in codices containing Syriac and Slavonic translations.
